@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+    <!-- 默认style 就是ratingBarStyle，和第二个是一样的 -->
+    <!-- 默认参数：星5 步长0.5 初始值 0 -->
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- style ratingBarStyle -->
+    <!-- 参数：星4 步长0.5 初始值 1 -->
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        style="?android:attr/ratingBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="4"
+        android:stepSize="0.5"
+        android:rating="1" />
+
+    <!-- style ratingBarStyleIndicator 不可交互，中等大小 -->
+    <!-- 参数：星5 初始值 2 不可交互，设置步长无意义 -->
+    <RatingBar
+        android:id="@+id/ratingBarOne"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="2"/>
+
+    <!-- style ratingBarStyleSmall 不可交互，小星星 -->
+    <!-- 参数：星4 初始值 2 不可交互，设置步长无意义 -->
+    <RatingBar
+        android:id="@+id/ratingBarTwo"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="4"
+        android:rating="2" />
+
+</LinearLayout>

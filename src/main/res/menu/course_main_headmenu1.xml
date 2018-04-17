@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.administrator.myapplication.LoginActivity">
+    <item
+        android:id="@+id/join_course"
+        android:title="加入课程"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+</menu>

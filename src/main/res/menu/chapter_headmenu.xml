@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.administrator.myapplication.LoginActivity">
+    <item
+        android:id="@+id/update_introduction"
+        android:title="更改简介"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/upload_data"
+        android:title="上传资料"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/delete_chapter"
+        android:title="删除章节"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/delete_learn_data"
+        android:title="删除资料"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+
+</menu>

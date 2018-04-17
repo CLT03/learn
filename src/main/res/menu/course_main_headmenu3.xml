@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.administrator.myapplication.LoginActivity">
+    <item
+        android:id="@+id/arrange_homework"
+        android:title="布置作业"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/look_homework"
+        android:title="查看作业"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/look_student"
+        android:title="查看学生"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/upadte_introduction"
+        android:title="更改简介"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/update_cover"
+        android:title="更改封面"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/new_chapter"
+        android:title="新建章节"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/delete_course"
+        android:title="删除课程"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+
+</menu>

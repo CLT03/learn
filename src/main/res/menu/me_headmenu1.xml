@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.administrator.myapplication.LoginActivity">
+    <item
+        android:id="@+id/login"
+        android:title="登录"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/exlogin"
+        android:title="退出登录"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/changepw"
+        android:title="修改密码"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/change_avatar"
+        android:title="修改头像"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/new_course"
+        android:title="新建课程"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+</menu>

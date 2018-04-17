@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.administrator.myapplication.LoginActivity">
+    <item
+        android:id="@+id/look_homework"
+        android:title="查看作业"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/new_comment"
+        android:title="新的评论"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/quit_course"
+        android:title="退出课程"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+
+</menu>
